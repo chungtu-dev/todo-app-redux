@@ -1,4 +1,4 @@
-import { Typography, Divider } from 'antd';
+import { Typography, Divider, Button } from 'antd';
 import './App.css';
 import TodoList from './components/TodoList';
 import Filters from './components/Filters';
@@ -24,6 +24,12 @@ function App() {
       <Filters />
       <Divider />
       <TodoList />
+      <Button
+        href='https://nctcurriculumvitae.netlify.app/'
+        style={{backgroundColor: '#4376a0', color: 'white', fontWeight: 'bold', cursor: 'pointer'}}
+        >
+        Review My Curriculum Vitae
+      </Button>
     </div>
   );
 }
