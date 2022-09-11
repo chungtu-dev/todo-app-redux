@@ -25,7 +25,7 @@ function App() {
       <Divider />
       <TodoList />
       <Button
-        href='https://nctcurriculumvitae.netlify.app/'
+        href='https://nctcv.netlify.app/'
         style={{backgroundColor: '#4376a0', color: 'white', fontWeight: 'bold', cursor: 'pointer'}}
         >
         Review My Curriculum Vitae
